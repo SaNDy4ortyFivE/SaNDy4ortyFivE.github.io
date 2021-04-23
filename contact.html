@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anime Corp</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/myContact.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+		<a class="navbar-brand" href="#">Anime Corp</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">Our Anime</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Products
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="#">Video Editor</a></li>
+						<li><a class="dropdown-item" href="#">Sound Mixer</a></li>
+						<li><a class="dropdown-item" href="#">Image Editor</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Services
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="#">2D and 3D Animation</a></li>
+						<li><a class="dropdown-item" href="#">Sound Studio</a></li>
+						<li><a class="dropdown-item" href="#">Character Desgin</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="contact.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+                                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Feedback</a>
+                                </li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="display-6">
+		Signup/Login to contact for Purchasing our Products
+	</div>
+        <div class="login-register-container">
+		<div class="row">
+			<div class="col-sm-8 signup-area">
+				<div class="display-6">
+					Signup
+				</div>
+				<form>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="fname">First Name</label>
+							<input type="text" class="form-control" name="fname" value="" required>
+							<div class="valid-feedback">
+								Looks Good!
+							</div>
+						</div>
+						<div class="form-group col-md-6">
+							<label for="lname">Last Name</label>
+							<input type="text" class="form-control" name="lname" value="">
+							<div class="valid-feedback">
+								Looks Good!
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 form-group">
+							<label for="s_uname">User Name</label>
+							<input type="text" class="form-control" name="s_uname" value="">
+						</div>
+						<div class="col-md-5 form-group">
+							<label for="s_email">Email</label>
+							<input type="text" class="form-control" name="s_email" value="">
+							<div class="valid-feedback">
+								OK!
+							</div>
+							<div class="invalid-feedback">
+								Invalid Email!
+							</div>
+						</div>
+						<div class="col-md-3 form-group">
+							<label for="s_dob">Date of Birth</label>
+							<input type="date" class="form-control" name="s_dob" value="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="s_passwd">Password</label>
+							<input type="password" class="form-control" name="S_passwd" value="">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="s_cpasswd">Confirm Password</label>
+							<input type="password" class="form-control" name="s_cpasswd" value="">
+						</div>
+					</div>
+					<input type="submit" class="c-btn btn btn-dark" name="s_submit_btn" value="Sign Up">
+				</form>
+			</div>
+			<div class="col-sm-4 login-area">
+				<div class="display-6">
+					Login
+				</div>
+				<form>
+					<div class="row">
+						<label for="l_uname" style="display:block;">Username</label>
+						<div class="col form-group input-group">
+							<div class="input-group-prepend">
+   								<span class="input-group-text" id="basic-addon1">@</span>
+ 							</div>
+							<input type="text" class="form-control" name="l_uname" value="">
+							<span class="glyphicon glyphicon-user"></span>
+						</div>
+					</div>
+					<div class="row">
+						<label for="l_passwd">Password</label>
+						<div class="col form-group input-group">
+							<div class="input-group-prepend">
+   								<span class="input-group-text" id="basic-addon1">*</span>
+ 							</div>
+							<input type="password" class="form-control" name="l_passwd" value="">
+						</div>
+					</div>
+					<input type="submit" class="c-btn btn btn-dark" name="l_login_btn" value="Login">
+				</form>
+			</div>
+		</div>
+        </div>
+	<p></p>
+	<div class="display-6">
+		Product Details
+	</div>
+	<div class="table-container">
+		<table class="table table-striped table-hover table-bordered table-sm">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">Product</th>
+					<th scope="col">Basic</th>
+					<th scope="col">Pro</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Video Editor</td>
+					<td>Clip Resizing, <br><span data-toggle="tooltip" data-placement="top" title="Changing aspect ratios of videos">Scaling,</span> <br>Trimming, Rotation</td>
+					<td>Curve-based Key Frame Animation, <br><span data-toggle="tooltip" data-placement="top" title="Combining multiple images, videos and sound into singel stream">Composting,</span> <br>Image Overlays, <br>Intro/Outro Templates</td>
+				</tr>
+				<tr>
+					<td>Sound Mixer</td>
+					<td>5 tracks, <br>Visualizer, <br>Supported Formats: mp3, .wav, .aac</td>
+					<td>25 tracks, <br>Effects, <br><span id="midi-disable" data-toggle"tooltip" data-placement="auto" title="Please check docs for further reference">Direct Integration with MIDI</span>,<br>Please check documentation for <br> other supported formats <br>Unlimited access to AnimeCorp Sound Library</td>
+				</tr>
+				<tr>
+					<td>Image Editor</td>
+					<td>Resizing, Cropping, Scaling<br>Support for 5 simultaneous layers, <br>Brushes, Color Picker <br>Supported Formats: png, jpeg, bmp</td>
+					<td><span data-toggle="tooltip" data-placement="top" title="Proprietary AI based Image Fixing">Smart Image Fixer,</span> <br>Effects, <br>4 different color formats, <br>Unlimited access to AnimeCorp Graphics Library</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>Price</th>
+					<td>Free</td>
+					<td>25$/month</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 		<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<h5 class="modal-title" id="exampleModalLabel">Your Feedback form</h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        					</button>
+      				</div>
+      				<div class="modal-body">
+					<form class="form" action="index.html" method="post">
+						<div class="form-group">
+							<label for="f-email">Email</label>
+							<input type="email" class="form-control" placeholder="Enter Email" name="f-email" value="">
+						</div>
+						<div class="form-group">
+							<label for="f-feedbck">Feedback</label>
+							<input type="texarea" class="form-control" placeholder="Please post your valuable feedback here" name="f-feedbck" value="">
+						</div>
+					</form>
+      				</div>
+      				<div class="modal-footer">
+        				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        				<button type="button" class="btn btn-primary">Submit</button>
+      				</div>
+    			</div>
+  		</div>
+	</div>
+	<footer>Follow us on...
+		<div class="follow-container">
+			<button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="auto" data-content="Follow us on Facebook to know about upcoming anime and other updates">
+	  			Follow on Facebook
+			</button>
+			<button type="button" class="btn btn-info" data-container="body" data-toggle="popover" data-placement="auto" data-content="Follow us on Twitter to know our views in the anime scene">
+	  			Follow on Twitter
+			</button>
+		</div>
+	</footer>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  		$('[data-toggle="tooltip"]').tooltip();
+		});
+		$('[data-toggle="popover"]').popover();
+		$('#midi-disable').tooltip('disable')
+		 $('.btn').on('shown.bs.popover', function () {
+  			$(this).css("background-color", "green")
+		})
+	</script>
+</body>
+</html>

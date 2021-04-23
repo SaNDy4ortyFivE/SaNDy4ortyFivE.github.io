@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMgB,mBAAC,CACO,KAAK,CAPP,OAAO,CASb,yBAAO,CACC,KAAK,CATD,OAAgB,CAUpB,gBAAgB,CATN,OAAO,CCmBzC,IAAI,CACI,MAAM,CApBG,IAAI,CAqBb,OAAO,CApBG,IAAI,CAqBd,UAAU,CAAE,MAAM,CAG1B,UAAU,CACF,SAAS,CAAE,QAAQ,CACnB,UAAU,CAAE,EAAE,CAGtB,YAAY,CACJ,gBAAgB,CAAE,eAAe,CACjC,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,OAAO,CACf,WAAW,CAAE,EAAE,CACf,cAAc,CAAE,EAAE",
+"sources": ["../scss/partials/nav_bar_hover.scss","../scss/myAbout.scss"],
+"names": [],
+"file": "myAbout.css"
+}

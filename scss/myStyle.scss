@@ -1,0 +1,105 @@
+$default-margin: 10px;
+$default-padding: 10px;
+
+$tagline-font: sans;
+$tagline-font-size: 35px;
+$tagline-background-color: rgba(230,216,230, 0.5);
+$font-color-default: #2D192C;
+$font-color-active: #E21CE2;
+
+$border-radius : 10px;
+$border-style: solid;
+$border-width: 2px;
+$border-color: #F9F2F9;
+
+$dropdown-text-color: #E21CE2;
+$dropdown-hover-text-color: rgb(230,216,230);
+$dropdown-hover-background-color: #D224D2;
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: rgba(0,0,0,0.9);
+}
+
+header{
+	background-image: url("../images/home_bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position-y: -200px;
+	padding: $default-padding;
+}
+
+@import "partials/nav_bar_hover";
+
+.tagline{
+  	width: 65%;
+	height: 300px;
+	margin: $default-margin auto;
+        background-color: $tagline-background-color;
+	margin-top: 40px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 65px;
+        font-family: $tagline-font;
+        font-size: $tagline-font-size;
+        border: $border-width $border-style $border-color;
+        border-radius: $border-radius;
+}
+
+.tagline{
+        h6{
+                font-size: $tagline-font-size;
+                color: $font-color-default;
+        }
+}
+
+.rank-text{
+	margin: 10px 10px;
+	margin-top: $default-margin*5;
+	margin-bottom: $default-margin*3;
+	h6{
+		font-size: $tagline-font-size;
+		color: #F9F2F9;
+	}
+}
+
+.image-container{
+	margin: 2px;
+	padding: 2px;
+	height: 525px;
+	object-fit: cover;
+}
+
+.image-container img{
+	margin: 0px auto;
+	border: $border-width $border-style $border-color;
+        border-radius: $border-radius;
+}
+
+.carousel-caption{
+	background-color: $tagline-background-color;
+	border: $border-width $border-style $border-color;
+        border-radius: $border-radius;
+	color: $font-color-default;
+	padding: $default-padding * 0.2;
+}
+
+footer{
+	width: 97%;
+	margin: auto;
+	padding: $default-padding;
+	position: fixes;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.90);
+	color: white;
+}
+
+.footer-head-container{
+	h6 {
+		display: inline;
+	}
+}

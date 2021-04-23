@@ -1,0 +1,23 @@
+.dropdown-menu li a {
+  color: #E21CE2; }
+.dropdown-menu li a:hover {
+  color: #e6d8e6;
+  background-color: #D224D2; }
+
+body {
+  margin: 10px;
+  padding: 10px;
+  overflow-x: hidden; }
+
+.our-anime {
+  font-size: xx-large;
+  margin-top: 1%; }
+
+.grid-holder {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 85%;
+  margin: 1% auto;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+/*# sourceMappingURL=myAbout.css.map */

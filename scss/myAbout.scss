@@ -1,0 +1,39 @@
+@import "partials/nav_bar_hover";
+
+$default-margin: 10px;
+$default-padding: 10px;
+
+$border-radius : 10px;
+$border-style: solid;
+$border-width: 2px;
+$border-color: #F9F2F9;
+
+$normal-alpha-value: 0.5;
+$inner-container-background-color: rgba(230,216,230, $normal-alpha-value);
+
+
+@mixin transform($property){
+        -webkit-transform: $property;
+        -ms-transform: $property;
+        -moz-transform: $property;
+        -o-transform: $property;
+}
+
+body{
+        margin: $default-margin;
+        padding: $default-padding;
+        overflow-x: hidden;
+}
+
+.our-anime{
+        font-size: xx-large;
+        margin-top: 1%;
+}
+
+.grid-holder{
+        background-color: rgba(0,0,0,0.2);
+        width: 85%;
+        margin: 1% auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+}

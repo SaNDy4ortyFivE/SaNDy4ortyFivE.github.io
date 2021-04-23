@@ -1,0 +1,15 @@
+$dropdown-text-color: #E21CE2;
+$dropdown-hover-text-color: rgb(230,216,230);
+$dropdown-hover-background-color: #D224D2;
+
+.dropdown-menu{
+        li{
+                a{
+                        color: $dropdown-text-color;
+                }
+                a:hover{
+                        color: $dropdown-hover-text-color;
+                        background-color: $dropdown-hover-background-color;
+                }
+        }
+}

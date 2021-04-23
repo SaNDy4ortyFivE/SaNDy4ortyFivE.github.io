@@ -1,0 +1,25 @@
+body { margin: 0; padding: 0; overflow-x: hidden; background-color: rgba(0, 0, 0, 0.9); }
+
+header { background-image: url("../images/home_bg.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; overflow: hidden; background-position-y: -200px; padding: 10px; }
+
+.dropdown-menu li a { color: #E21CE2; }
+.dropdown-menu li a:hover { color: #e6d8e6; background-color: #D224D2; }
+
+.tagline { width: 65%; height: 300px; margin: 10px auto; background-color: rgba(230, 216, 230, 0.5); margin-top: 40px; text-align: center; padding: 10px; padding-top: 65px; font-family: sans; font-size: 35px; border: 2px solid #F9F2F9; border-radius: 10px; }
+
+.tagline h6 { font-size: 35px; color: #2D192C; }
+
+.rank-text { margin: 10px 10px; margin-top: 50px; margin-bottom: 30px; }
+.rank-text h6 { font-size: 35px; color: #F9F2F9; }
+
+.image-container { margin: 2px; padding: 2px; height: 525px; object-fit: cover; }
+
+.image-container img { margin: 0px auto; border: 2px solid #F9F2F9; border-radius: 10px; }
+
+.carousel-caption { background-color: rgba(230, 216, 230, 0.5); border: 2px solid #F9F2F9; border-radius: 10px; color: #2D192C; padding: 2px; }
+
+footer { width: 97%; margin: auto; padding: 10px; position: fixes; bottom: 0; background-color: rgba(0, 0, 0, 0.9); color: white; }
+
+.footer-head-container h6 { display: inline; }
+
+/*# sourceMappingURL=myStyle.css.map */
